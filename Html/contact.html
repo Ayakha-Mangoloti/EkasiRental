@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ekasi Rentals</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- ================= HEADER ================= -->
+<header>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                Ekasi<span>Rentals</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="listings.html">Properties</a></li>
+                <li><a href="login.html">User Account</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- ================= HERO ================= -->
+
+<section class="hero" style="padding:3rem 0;">
+    <div class="container">
+        <div class="hero-text">
+            <h1>Get In <span>Touch</span></h1>
+            <p>
+                We would love to hear from you. Reach out for rental inquiries, support, or feedback.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- ================= CONTACT INFO ================= -->
+<section class="about">
+    <div class="container">
+
+        <!-- CONTACT DETAILS -->
+        <div class="card" style="flex:1; padding:2rem;">
+            <div class="section-title">
+                <h2>Contact Details</h2>
+                <p>Reach us through any of the following platforms</p>
+            </div>
+            <div class="card-content">
+                <p><strong>Email:</strong> info@ekasirentals.co.za</p>
+                <p><strong>Phone:</strong> +27 123 456 8979</p>
+                <p><strong>Facebook:</strong> Ekasi Rentals</p>
+                <p><strong>Instagram:</strong> @ekasirentals</p>
+                <p><strong>WhatsApp:</strong> +27 84 787 5319</p>
+                <br>
+                <h3>Office Location</h3>
+                <p>
+                    Pama Road<br>
+                    Khayelitsha<br>
+                    Cape Town, 7784<br>
+                    South Africa
+                </p>
+                <br>
+                <h3>Working Hours</h3>
+                <p>
+                    Monday - Friday: 08:00 - 17:00<br>
+                    Saturday: 09:00 - 13:00<br>
+                    Sunday: Closed
+                </p>
+            </div>
+        </div>
+        <!-- CONTACT FORM -->
+        <div class="card" style="flex:1; padding:2rem;">
+            <div class="section-title">
+                <h2>Send Us a Message</h2>
+                <p>Our support team will get back to you soon</p>
+            </div>
+            <form class="contact-form">
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Enter your full name" 
+                    required
+                >
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="Enter your email" 
+                    required
+                >
+                <input 
+                    type="text" 
+                    id="subject" 
+                    name="subject" 
+                    placeholder="Subject of your message" 
+                    required
+                >
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    rows="5"
+                    placeholder="Type your message here..."
+                    required
+                ></textarea>
+                <button 
+                    type="submit" 
+                    class="btn"
+                    onclick="alert('Your message has been successfully sent!')"
+                >
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ================= MAP SECTION ================= -->
+<section class="properties">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Location</h2>
+            <p>Visit our office in Khayelitsha, Cape Town</p>
+        </div>
+        <div class="card" style="padding:1rem;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.543025224999!2d18.652269188726923!3d-34.02993910397466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc4f2cc9d22bb1%3A0x8bbd65460b1622e5!2sKhayelitsha%20Stadium.!5e0!3m2!1sen!2sza!4v1776153215738!5m2!1sen!2sza"
+                width="100%"
+                height="400"
+                style="border:0; border-radius:15px;"
+                allowfullscreen=""
+                loading="lazy"
+            ></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+    <div class="container">
+        <p>
+            &copy; 2026 Ekasi Rentals. All rights reserved.
+        </p>
+        <p>
+            info@ekasirentals.co.za | +27 123 456 8979
+        </p>
+    </div>
+</footer>
+</body>
+</html>

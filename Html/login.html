@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Accounts - Ekasi Rentals</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<!-- ================= HEADER ================= -->
+<header>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                Ekasi<span>Rentals</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="listings.html">Properties</a></li>
+                <li><a href="login.html" class="active">User Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" style="padding: 3rem 0;">
+
+    <div class="container">
+        <div class="hero-text">
+            <h1>Manage Your <span>Account</span></h1>
+            <p></p>
+                Login or create an account to manage bookings and rental listings.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= ACCOUNT SECTION ================= -->
+
+<section class="about">
+    <div class="container">
+        <!-- LOGIN CARD -->
+        <div class="card" style="flex:1; padding:2rem;">
+            <div class="section-title">
+                <h2>Login</h2>
+                <p>Access your Ekasi Rentals account</p>
+            </div>
+            <form class="contact-form">
+                <input 
+                    type="email" 
+                    id="login-email" 
+                    placeholder="Enter your email" 
+                    required
+                >
+                <input 
+                    type="password" 
+                    id="login-password" 
+                    placeholder="Enter your password"
+                    required
+                >
+                <button type="submit" class="btn">
+                    Login
+                </button>
+                <p style="margin-top:1rem;">
+                    <a href="#">Forgot your password?</a>
+                </p>
+            </form>
+        </div>
+        <!-- SIGN UP CARD -->
+        <div class="card" style="flex:1; padding:2rem;">
+            <div class="section-title">
+                <h2>Create Account</h2>
+                <p>Join Ekasi Rentals today</p>
+            </div>
+            <form class="contact-form">
+                <input 
+                    type="text" 
+                    id="signup-name" 
+                    placeholder="Enter your full name" 
+                    required
+                >
+                <input 
+                    type="email" 
+                    id="signup-email" 
+                    placeholder="Enter your email" 
+                    required
+                >
+                <input 
+                    type="password" 
+                    id="signup-password" 
+                    placeholder="Create a password" 
+                    required
+                >
+                <select id="signup-role" name="signup-role">
+                    <option value="">Select Account Type</option>
+                    <option value="tenant">
+                        Tenant
+                    </option>
+                    <option value="landlord">
+                        Landlord
+                    </option>
+                </select>
+                <button type="submit" class="btn">
+                    Sign Up
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+    <div class="container">
+        <p>
+            &copy; 2026 Ekasi Rentals. All rights reserved.
+        </p>
+        <p>
+            info@ekasirentals.co.za | +27 123 456 8979
+        </p>
+    </div>
+</footer>
+</body>
+</html>
+               
