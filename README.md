@@ -32,6 +32,11 @@ Week 5: Adding features such as search functionality, property listings, and rec
 Week 6: Testing, debugging, and final adjustments to ensure the website is user friendly 
 
 Week 7: Final submission and documentation preparation. 
+# Technologies Used 
+-HTML
+-CSS
+-GIT & GitHub for version control
+-Hover animations for interactivity
 # Changelog
 I insetred a form
 
@@ -42,11 +47,27 @@ I modified the navigation bar of my website
 I added homepagelayout
 
 I added search functionality
+
+PART 2
+Created homepage layout with property higlights
+
+implemeneted responsive navigatio bar
+
+added property listing grid system
+
+designed contact form with map
+
+added login and sign-ip interface
+
+improved overall UI/UX design and responsiveness 
+
+standardized CSS design system across all pages
 # The Sitemap
 <img width="1024" height="768" alt="EKASI RENTTALS" src="https://github.com/user-attachments/assets/775d15c6-2fa5-4d82-85a5-789b15a81961" />
 
 # The wireframe
 <img width="1920" height="1080" alt="EKASI RENTALS HOME  ABOUT  LISTINGS  LOGIN  CONTACT" src="https://github.com/user-attachments/assets/a989b500-18c7-4b9f-9932-31dc87977251" />
+
 
 # References
 ## Images
@@ -61,6 +82,9 @@ Booking.com: https://www.airbnb.com
 W3School: https://www.w3schools.com
 
 Youtube: https://www.youtube.com
+
+# Developer
+Develped by Ayakha Mangoloti as part of a Web Development project for IT in Software Development
 
 
 
