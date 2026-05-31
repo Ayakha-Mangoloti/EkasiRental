@@ -66,7 +66,7 @@ The website was built using semantic HTML and a structured external CSS design s
 
 ---
 
-## 📈 CSS Implementation (Rubric Evidence)
+## 📈 CSS Implementation 
 
 The external stylesheet includes:
 - Consistent color system using CSS variables
