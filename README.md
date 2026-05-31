@@ -1,91 +1,159 @@
-# Project Title
-Ekasi Rental
-## Description
-Ekasi Rental is a simple web-based rental platform that allows users to view available properties to rent.
-# Student Information
-## Name:
-Ayakha Mangoloti
-## Course: 
-IT in Software Development
-## Module:
-Web Development
-## Lecturer:
-Miss Angela
-# Project Overview
-The Ekasi Rentals project focuses on the design and development of a web based rental platform aimed at connectiong tenants and landlords within township communities. The system is inteneded to provide a centralized,secure, and user friendly digital space where rental accomodation such as rooms, backrooms, and houses can be advertised and accessed easily
-# Website Goals and Objectives
-## Goals:
-The main goal of Ekasi Rentals is to make it easy for people to find rental accommodation, whether it's rooms, backroom, or houses. It aims to reduce scams and misinformation by giving verified landlords a space to list rentals and give property owners a simple way to advertise their rooms or houses to a bigger audience
-## Objectives:
-To reduce rental fraud by implementing a landlord verifacation system during the first phase of website development.
-# Key Features and Functionality:
-Homepage, About Us, Contact Page, Property Listing, Search and Filter Functionality, and User Accounts.These will ensure easy navigation and accessibility for all users. 
-# Timeline and Milestones
-Week 1-2: Research and planning of the website, including identifying user needs and analyzing existing rental platforms. 
+# Ekasi Rentals – Web Development Project
 
-Week 3: Creation of wireframes and design layout using Canva to plan the structure 
+---
 
-Week 4: Development of the website using HTML, including building the homepage and navigation system 
+## 📌 Project Title
+Ekasi Rentals
 
-Week 5: Adding features such as search functionality, property listings, and recommendations sections 
+---
 
-Week 6: Testing, debugging, and final adjustments to ensure the website is user friendly 
+## 📖 Description
+Ekasi Rentals is a responsive web-based rental platform designed to connect tenants and landlords within township communities in South Africa. The platform allows users to browse, search, and view affordable rental properties such as rooms, backrooms, flats, and houses in a simple and user-friendly interface.
 
-Week 7: Final submission and documentation preparation. 
-# Technologies Used 
--HTML
--CSS
--GIT & GitHub for version control
--Hover animations for interactivity
-# Changelog
-I insetred a form
+---
 
-I inserted a map
+## 👤 Student Information
+**Name:** Ayakha Mangoloti  
+**Course:** IT in Software Development  
+**Module:** Web Development  
+**Lecturer:** Miss Angela  
 
-I modified the navigation bar of my website
+---
 
-I added homepagelayout
+## 🧭 Project Overview
+The Ekasi Rentals project focuses on designing and developing a modern web-based rental platform that improves access to affordable housing in township areas. The system provides a centralized digital space where landlords can advertise properties and tenants can easily search and view available rentals.
 
-I added search functionality
+The website was built using semantic HTML and a structured external CSS design system to ensure consistency, usability, and responsiveness across all devices.
 
-PART 2
-Created homepage layout with property higlights
+---
 
-implemeneted responsive navigatio bar
+## 🎯 Website Goals and Objectives
 
-added property listing grid system
+### Goals:
+- Provide an easy-to-use platform for finding rental accommodation
+- Reduce rental scams by promoting structured listings
+- Support landlords in advertising properties efficiently
+- Improve accessibility of rental opportunities in township communities
 
-designed contact form with map
+### Objectives:
+- Implement a structured and responsive website using HTML and CSS
+- Create a consistent UI/UX design across all pages
+- Apply external CSS styling for maintainability
+- Ensure mobile, tablet, and desktop responsiveness
+- Improve user navigation through a clear menu system
+- Introduce basic verification concept for future development
 
-added login and sign-ip interface
+---
 
-improved overall UI/UX design and responsiveness 
+## 🛠️ Technologies Used
+- HTML5 (Page structure and content)
+- CSS3 (External stylesheet for full design system)
+- Git & GitHub (Version control and project hosting)
+- Responsive Web Design (Media queries and flexible grid system)
+- Hover effects & pseudo-classes for interactivity
 
-standardized CSS design system across all pages
-# The Sitemap
-<img width="1024" height="768" alt="EKASI RENTTALS" src="https://github.com/user-attachments/assets/775d15c6-2fa5-4d82-85a5-789b15a81961" />
+---
 
-# The wireframe
-<img width="1920" height="1080" alt="EKASI RENTALS HOME  ABOUT  LISTINGS  LOGIN  CONTACT" src="https://github.com/user-attachments/assets/a989b500-18c7-4b9f-9932-31dc87977251" />
+## ✨ Key Features and Functionality
+- Home page with featured property listings
+- About Us page with company background
+- Property listing page with search and filter structure
+- User login and sign-up interface
+- Contact page with form and embedded Google Map
+- Responsive navigation menu across all pages
+- Property cards with consistent layout system
+- External CSS design system applied globally
 
+---
 
-# References
-## Images
-Pexels: https://www.pexels.com
+## 📈 CSS Implementation (Rubric Evidence)
 
-Unsplash: https://unplash.com
-## Design Inspiration
-Airbnb: https://www.airbnb.com
+The external stylesheet includes:
+- Consistent color system using CSS variables
+- Grid-based property layout system
+- Responsive flexbox and grid design
+- Card-based UI design for listings
+- Hover effects and transitions for interactivity
+- Mobile-first responsive media queries
+- Typography consistency across all pages
+- Navigation styling with active states and hover effects
 
-Booking.com: https://www.airbnb.com
-## Coding Help
-W3School: https://www.w3schools.com
+---
 
-Youtube: https://www.youtube.com
+## 📱 Responsive Design
 
-# Developer
-Develped by Ayakha Mangoloti as part of a Web Development project for IT in Software Development
+The website is fully responsive and adapts across:
+- Desktop screens
+- Tablets
+- Mobile devices
 
+### Responsive Features:
+- Navigation menu collapses on smaller screens
+- Property grid adjusts automatically
+- Text scales for readability
+- Images resize without distortion
+- Layout switches from horizontal to vertical on mobile
 
+---
 
+## 🔄 Changelog
 
+### Initial Development:
+- Created homepage layout with property highlights
+- Developed About Us, Listings, Login, and Contact pages
+- Built navigation system linking all pages
+
+### Styling & UI Improvements:
+- Implemented external CSS stylesheet
+- Designed modern property card layout system
+- Added hover effects and interactive buttons
+- Standardized color palette and typography
+- Improved spacing and visual hierarchy
+
+### Functionality Improvements:
+- Added search bar and filter layout (UI level)
+- Embedded Google Maps on contact page
+- Designed login and sign-up forms
+- Improved navigation consistency across pages
+
+### Responsive Design:
+- Added media queries for mobile and tablet screens
+- Improved grid system for property listings
+- Adjusted navigation for smaller devices
+- Enhanced readability across screen sizes
+
+---
+
+## 🗺️ Sitemap
+<img width="1024" height="768" alt="Ekasi Sitemap" src="https://github.com/user-attachments/assets/775d15c6-2fa5-4d82-85a5-789b15a81961" />
+
+---
+
+## 🧩 Wireframe
+<img width="1920" height="1080" alt="Ekasi Wireframe" src="https://github.com/user-attachments/assets/a989b500-18c7-4b9f-9932-31dc87977251" />
+
+---
+
+## 📚 References
+
+### Images
+- Pexels: https://www.pexels.com  
+- Unsplash: https://unsplash.com  
+
+### Design Inspiration
+- Airbnb: https://www.airbnb.com  
+- Booking.com: https://www.booking.com  
+
+### Coding Resources
+- W3Schools: https://www.w3schools.com  
+- YouTube Tutorials: https://www.youtube.com  
+
+---
+
+## 👨‍💻 Developer
+Developed by Ayakha Mangoloti as part of a Web Development project for IT in Software Development.
+
+---
+
+## 🏁 Conclusion
+This project demonstrates the application of HTML, CSS, responsive design principles, and version control using GitHub. The website provides a functional and visually appealing rental platform designed for township communities.
