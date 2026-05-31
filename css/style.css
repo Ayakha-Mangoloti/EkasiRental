@@ -27,13 +27,14 @@ body {
     color: var(--text);
     background-color: var(--light);
     line-height: 1.6;
+    font-size: 16px;
 }
 /*======================================================================================
 CONTAINER
 =====================================================================================*/
 .container {
     width: 90%;
-    max-width: 1250;
+    max-width: 1250px;
     margin: auto;
 }
 /*====================================================================================
@@ -69,14 +70,18 @@ nav ul li a {
     font-weight: 600;
     text-decoration: none;
     transition: 0.3s;
+    padding: 5px;
 }
 nav ul li a:hover { 
     color: var(--secondary);
 }
+nav ul li a:focus {
+    outline: 2px solid var(--secondary);
+    border-radius: 5px;
+}
 nav ul li a.active {
     color: var(--secondary);
     border-bottom: 2px solid var(--secondary);
-    padding-bottom: 3px;
 }
 /*=======================================================================================
 HERO SECTION
@@ -131,6 +136,14 @@ SEARCH BAR
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+.search-btn:hover,
+.btn:hover {
+    transform: translateY(-3px);
+    background: #e0a000;
 }
 /*==========================================================================================
 STATS
@@ -201,6 +214,12 @@ CARD CONTENT
     margin-top: auto;
     color: var(--primary);
 }
+.features {
+    display: flex;
+    gap: 0.8rem;
+    color: var(--gray);
+    font-size: 0.85rem;
+}
 /*==========================================================================================
 PROPERTY FEATURES
 =============================================================================================*/
@@ -240,10 +259,7 @@ ABOUT SECTION
     align-items: center;
     flex-wrap: wrap;
 }
-.about img {
-    width: 100%;
-    border-radius: 15px;
-}
+
 /*=====================================================================================
 FORM SECTION
 =====================================================================================*/
@@ -257,10 +273,8 @@ FORM SECTION
 .contact-form textarea {
     width: 100%;
     padding: 0.9rem;
-
     border: 1px solid #ddd;
     border-radius: 10px;
-
     margin-bottom: 1rem;
 }
 /*=====================================================================================
