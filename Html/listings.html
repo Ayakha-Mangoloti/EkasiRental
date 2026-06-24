@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Property Listings - Ekasi Rentals</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
 </head>
 
 <body>
@@ -25,13 +26,16 @@
         </div>
     </nav>
 </header>
+<!-- ================= LIGHTBOX ================= -->
+<div id="lightbox" class="lightbox">
+    <span id="closeBtn">&times;</span>
+    <img id="lightboxImg" src="" alt="Expanded Property Image">
+</div>
 <!-- ================= PAGE HERO ================= -->
 <section class="hero" style="padding: 3rem 0;">
-
     <div class="container">
         <div class="hero-text">
             <h1>Available <span>Properties</span></h1>
-
             <p>
                 Browse affordable rental spaces across different townships in South Africa.
             </p>
@@ -46,7 +50,8 @@
                 <h2>Search & Filter</h2>
                 <p>Find rentals that match your needs</p>
             </div>
-            <form class="contact-form">
+
+            <form class="contact-form" id="filterForm">
                 <input 
                     type="text" 
                     id="location" 
@@ -58,6 +63,7 @@
                     <option value="backroom">Back Room</option>
                     <option value="flat">Flat</option>
                     <option value="house">House</option>
+                    <option value="room">Room</option>
                 </select>
                 <input 
                     type="number" 
@@ -69,6 +75,12 @@
                     Search Properties
                 </button>
             </form>
+            <button id="sortLowHigh" class="btn">
+                Sort: Price Low → High
+        </button>
+            <button id="resetFilters" class="btn" style="margin-top:10px;">
+                Reset Filters
+        </button>
         </div>
     </div>
 </section>
@@ -82,10 +94,11 @@
         <div class="grid">
 
             <!-- PROPERTY 1 -->
-            <div class="card">
+            <div class="card" data-location="Khayelitsha" data-type="backroom" data-price="2500">
                 <img 
                     src="images/Gugulethu.jpg" 
                     alt="Cozy Back Room in Khayelitsha">
+
                 <div class="card-content">
                     <p class="location">Khayelitsha</p>
                     <h3>Cozy Back Room</h3>
@@ -105,7 +118,7 @@
                 </div>
             </div>
             <!-- PROPERTY 2 -->
-            <div class="card">
+            <div class="card" data-location="Gugulethu" data-type="flat" data-price="3500">
                 <img 
                     src="images/BackroomKhayelitsha.jpg" 
                     alt="Modern Flat in Gugulethu"
@@ -129,7 +142,7 @@
                 </div>
             </div>
             <!-- PROPERTY 3 -->
-            <div class="card">
+            <div class="card" data-location="Mitchells Plain" data-type="room" data-price="2000">
                 <img 
                     src="images/MitchellsPlain.jpg" 
                     alt="Affordable Room in Mitchells Plain"
@@ -170,3 +183,4 @@
 </footer>
 </body>
 </html>
+                
