@@ -47,22 +47,37 @@ The website was built using semantic HTML and a structured external CSS design s
 
 ## 🛠️ Technologies Used
 - HTML5 (Page structure and content)
-- CSS3 (External stylesheet for full design system)
+- CSS3 (Styling, animations, transitions, and responsive design)
+- JavaScript (Dynamic content, filtering, sorting, lightbox gallery, and form validation)
 - Git & GitHub (Version control and project hosting)
+- Google Maps Embed API (Location services)
 - Responsive Web Design (Media queries and flexible grid system)
-- Hover effects & pseudo-classes for interactivity
 
 ---
 
 ## ✨ Key Features and Functionality
-- Home page with featured property listings
-- About Us page with company background
-- Property listing page with search and filter structure
-- User login and sign-up interface
-- Contact page with form and embedded Google Map
-- Responsive navigation menu across all pages
-- Property cards with consistent layout system
-- External CSS design system applied globally
+
+# Property Listings
+- Browse available rental properties
+- Filter properties by location, property type, and price
+- Sort properties by price (Low to High)
+- Dynamic search functionality using JavaScript
+# Interactive Features
+- Lightbox image gallery for viewing property images
+- Smooth CSS transitions and animations
+- Dynamic DOM manipulation for filtering and sorting content
+- Responsive user interface across all devices
+# Contact Page
+- Contact form with JavaScript validation
+- Email format verification
+- Required field validation
+- Success and error feedback messages
+- Embedded Google Maps location
+# User Experience
+- Responsive navigation menu
+- Mobile-friendly layout
+- Consistent UI design system
+- Interactive buttons and hover effects
 
 ---
 
@@ -95,6 +110,19 @@ The website is fully responsive and adapts across:
 - Layout switches from horizontal to vertical on mobile
 
 ---
+## 🔍 Search Engine Optimization (SEO)
+The website incorporates several SEO best practices:
+# On-Page SEO
+- Descriptive page titles
+- Structured heading hierarchy (H1, H2, H3)
+- Optimized image alt text
+- Mobile-friendly responsive design
+- Internal page linking
+# Technical SEO
+- Sitemap.xml implemented
+- Robots.txt configured
+- Clean file structure
+- Optimized loading performance
 
 ## 🔄 Changelog
 
@@ -121,8 +149,40 @@ The website is fully responsive and adapts across:
 - Improved grid system for property listings
 - Adjusted navigation for smaller devices
 - Enhanced readability across screen sizes
+## JavaScript Functionality
 
+- Implemented live property filtering
+-Added price sorting functionality
+- Developed lightbox image gallery
+- Added dynamic "No Results Found" feedback
+- Implemented DOM manipulation for property listings
+# Form Validation
+- Added JavaScript form validation
+- Implemented email verification
+- Added required field validation
+- Added success and error messages
+# User Experience Improvements
+- Added smooth transitions and animations
+- Improved mobile responsiveness
+- Enhanced navigation consistency
+- Improved accessibility and usability
+# SEO Improvements
+- Added sitemap.xml
+- Added robots.txt
+- Improved heading structure
+- Optimized image descriptions and metadata
 ---
+# 🚀Deployment
+
+The project is version-controlled using GitHub and deployed on a free hosting platform for public access.
+
+Repository contains:
+
+- Source code
+- Project documentation
+- Change log
+- References
+- Sitemap and robots configuration
 
 ## 🗺️ Sitemap
 <img width="1024" height="768" alt="Ekasi Sitemap" src="https://github.com/user-attachments/assets/775d15c6-2fa5-4d82-85a5-789b15a81961" />
@@ -156,4 +216,4 @@ Developed by Ayakha Mangoloti as part of a Web Development project for IT in Sof
 ---
 
 ## 🏁 Conclusion
-This project demonstrates the application of HTML, CSS, responsive design principles, and version control using GitHub. The website provides a functional and visually appealing rental platform designed for township communities.
+This project demonstrates the practical application of HTML5, CSS3, JavaScript, responsive web design, SEO principles, and version control using GitHub. The final website provides a functional, user-friendly, and interactive rental platform designed to support township communities in finding affordable accommodation.
